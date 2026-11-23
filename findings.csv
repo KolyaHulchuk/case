@@ -1,0 +1,17 @@
+system,login,problem
+BO,o.kovalenko,"працівника звільнено 2026-10-15, акаунт досі існує"
+BO,o.kovalenko,останній вхід 2026-10-28 ПІСЛЯ дати статусу 'terminated' (2026-10-15)
+BO,t.tkachenko,"має роль 'operator', очікувана роль для Finance Analyst - 'finance'"
+BO,n.kravets,"має роль 'refund_approver', очікувана роль для Support L2 - 'operator'"
+BO,y.savchenko,"працівник у відпустці з 2026-05-01, акаунт досі існує"
+BO,y.savchenko,"не використовується 199 дн. (останній вхід 2026-04-28), ліміт 90 дн. - має бути заблокований"
+BO,support,немає запису в HR для email support@paytest.ua - акаунт не прив'язаний до працівника
+BO,test_admin,немає запису в HR для email (порожній) - акаунт не прив'язаний до працівника
+BO,test_admin,постійний admin-акаунт у BO (admin видається лише через PAM на час роботи)
+BO,test_admin,немає email - акаунт не прив'язаний до корпоративної пошти
+GitLab,o.kovalenko,"працівника звільнено 2026-10-15, акаунт досі існує"
+GitLab,o.kovalenko,"має роль 'reporter', але Support L2 не повинен мати доступу до GitLab"
+GCP-prod,a.bondar@paytest.ua,"має роль 'roles/editor', але Developer не повинен мати доступу до GCP-prod"
+GCP-prod,v.lysenko@gmail.com,"немає запису в HR для email v.lysenko@gmail.com - акаунт не прив'язаний до працівника (можливий власник за ім'ям: Віктор Лисенко, Developer, v.lysenko@paytest.ua)"
+GCP-prod,v.lysenko@gmail.com,email v.lysenko@gmail.com не є корпоративною адресою @paytest.ua
+BO,n.kravets@paytest.ua,"конфлікт SoD: може і створювати (operator), і підтверджувати (refund_approver) повернення"
